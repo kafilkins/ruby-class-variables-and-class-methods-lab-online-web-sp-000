@@ -33,7 +33,7 @@ class Song
         if genres_count[genre]
           genres_count += 1
         else
-          genres_count[genre] = 1
+          genre_count[genre] = 1
         end
       end
       genres_count
