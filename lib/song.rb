@@ -23,7 +23,7 @@ attr_accessor :name, :artist, :genre
   end
 
     def self.artist
-      new_array
+    @@artist.uniq!
     end
 
 
