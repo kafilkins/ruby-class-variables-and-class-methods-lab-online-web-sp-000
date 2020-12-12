@@ -14,16 +14,12 @@ attr_accessor :name, :artist, :genre
     @@artist << artist
   end
 
-
-  def new(name, artist, genre)
-  end
-
   def self.count
     @@count
   end
 
   def self.genre
-    new_array
+    @@genre.uniq!
   end
 
     def self.artist
