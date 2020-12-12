@@ -15,12 +15,12 @@ class Song
   end
 
   def self.genre
-    new_array 
+    new_array
   end
 
     def self.artist
       new_array
     end
-      
+
 
 end
